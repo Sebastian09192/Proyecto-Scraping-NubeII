@@ -1,38 +1,232 @@
 [
     {
+        "titulo": "Laptop Asus 14 Core I3 12th 8gb 128gb Ssd Techmovil",
+        "precio": "₡184,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Lenovo Yoga Book 9i 2-in-1 13.3 2.8k Dual Screen Oled",
+        "precio": "₡470,900",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Lenovo Yoga Book 9i 2-in-1 13.3 2.8k Dual Screen Oled Tyy",
+        "precio": "₡470,900",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Apple Macbook Pro 16 2021 1tb Ssd 64gb Ram",
+        "precio": "₡259,094",
+        "origen": "MercadoLibreCR"
+    },
+    {
         "titulo": "Asus Rog Flow X13",
-        "precio": "₡179,119"
+        "precio": "₡179,119",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Asus Rog Flow X13",
+        "precio": "₡179,119",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Asus Rog Flow X13",
+        "precio": "₡179,119",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Dell Alienware M15 R3 15.6 Core I9 10th Gen Rtx 2070",
+        "precio": "₡170,382",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Macbook Pro 2024 14.2 Chip M4 16gb 1tb Ssd Mw2x3ll/a",
+        "precio": "₡407,000",
+        "origen": "MercadoLibreCR"
     },
     {
         "titulo": "Razer Blade 15 15.6 Gaming Laptop 4k",
-        "precio": "₡140,000"
+        "precio": "₡140,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "LG Gram - Portátil De 14 Pulgadas 2 En 1 Intel Evo Edition",
+        "precio": "₡225,528",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Acer Nitro 5 I7 16gb 512gb Ssd Rtx 4k Pro 2 En 1",
+        "precio": "₡208,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Macbook Pro 2024 14.2 Chip M4 16gb 1tb Ssd Mw2x3ll/a",
+        "precio": "₡605,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Hp 15.6 Envy X360 15-eu1073cl Multi-touch 2-in-1 Laptop",
+        "precio": "₡155,000",
+        "origen": "MercadoLibreCR"
     },
     {
         "titulo": "Samsung Book4 Pro 360 Core Ultra 7 16gb 1tb 16 Np960qgk Gray",
-        "precio": "₡230,000"
+        "precio": "₡230,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Asus Zenbook Pro Duo Ux581 Laptop 15.6 4k Uhd Nanoedge Touch",
+        "precio": "₡150,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Hp 15.6 Envy X360 15-eu 1073cl Multi Touch 2-in 1 Laptop",
+        "precio": "₡151,673",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Lenovo Thinkpad X1 Carbon 14touch Intel I71tb Ssd 32gb Ram",
+        "precio": "₡308,999",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Asus X515e Ci5-1135g7 - 8gb - 256gb-ssd - 15.6 - Esp",
+        "precio": "₡300,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Apple Macbook Prom2 8gb Ram + 256gb Ssd Gris Espacial",
+        "precio": "₡295,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Asus 15.6 Tuf Gaming F15 Laptop (mecha Gray)",
+        "precio": "₡178,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Apple Macbook Pro (14-inch, 2021) M1 Pro 10-core 32gb 1tb",
+        "precio": "₡250,800",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Portátil Plegable Huawei Matebook",
+        "precio": "₡152,921",
+        "origen": "MercadoLibreCR"
     },
     {
         "titulo": "Laptop Acer 15 Gaming Gamer Core 17 16gb 512gg Rtx 3060",
-        "precio": "₡230,000"
+        "precio": "₡230,000",
+        "origen": "MercadoLibreCR"
     },
     {
         "titulo": "Netbook Gamer Thunderobot 911x Gris 15.6 Intel Core I5",
-        "precio": "₡200,000"
+        "precio": "₡200,000",
+        "origen": "MercadoLibreCR"
     },
     {
         "titulo": "Asus Rog Strix G16 (2024) Gaming Laptop",
-        "precio": "₡200,000"
+        "precio": "₡200,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Macbook Pro 2020 Chip M1 13.3 16gb Ram 1tb Ssd",
+        "precio": "₡199,900",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Lenovo Slim 7i 14 2.8k Intel Core I7 1260p 16 Gb Ram 1tb",
+        "precio": "₡100,000",
+        "origen": "MercadoLibreCR"
     },
     {
         "titulo": "Msi 17 Raider Gaming Laptop (black)",
-        "precio": "₡190,000"
+        "precio": "₡190,000",
+        "origen": "MercadoLibreCR"
     },
     {
         "titulo": "Lenovo Loq 15.6 Gaming Laptop",
-        "precio": "₡175,000"
+        "precio": "₡175,000",
+        "origen": "MercadoLibreCR"
     },
     {
         "titulo": "Lenovo 16 Legion Pro 7i Gaming Laptop",
-        "precio": "₡170,000"
+        "precio": "₡170,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Alienware X17 R1 I7 11800h 32gb Rtx 3080 165w 1tb 165hz",
+        "precio": "₡170,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Laptop Chuwi Corebook X 16gb 512gb Ssd Intel I5-1035g1 Win11",
+        "precio": "₡168,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Apple 16 Macbook Pro (m4 Pro, Space Black)",
+        "precio": "₡230,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Asus Zenbook Pro Duo Ux581 Laptop 15.6 4k Uhd Nanoedge Touch",
+        "precio": "₡160,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Lenovo X1 Thinkpad Carbon 6th Gen Core I7 8650u 1.9ghz 16gb",
+        "precio": "₡150,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Dell Xps 13 7390 13.4'touch 4k I7-1065g7 1.3ghz 16gb Ssd1tb",
+        "precio": "₡150,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Hp Probook 450 G10 15.6 Core I7 13th Gen 16gb /512 Gb",
+        "precio": "₡150,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Lenovo Thinkpad X1 Extreme 1st Gen I7-8850h 32gb Ram 1tb Ssd",
+        "precio": "₡145,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Dell Inspiron 16 Plus 7610 I7-11800h 16gb 1tb Ssd",
+        "precio": "₡145,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Dell Xps 16 9640/16.28 /intel Core Ultra 9/185h/32 Gb Ram/1",
+        "precio": "₡207,146",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Asus 14.5 Zenbook Pro 14 Duo Oled Multi Touch Notebook",
+        "precio": "₡140,000",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Macbook Pro M2 2022 8gb Ram 256gb Gris Espacial Nueva",
+        "precio": "₡136,251",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Apple Macbook Air 13.6 Portátil M2 Chip 8gb Ram 256gb Ssd",
+        "precio": "₡129,737",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Hp-victus 15.6 Full Hd Gaming Laptopamd Ryzen 5-7535hs -8gb",
+        "precio": "₡119,754",
+        "origen": "MercadoLibreCR"
+    },
+    {
+        "titulo": "Huawei Matebook D15 I3-10110u 8gb Ram , Ssd 256gb 15.6",
+        "precio": "₡120,340",
+        "origen": "MercadoLibreCR"
     }
 ]
