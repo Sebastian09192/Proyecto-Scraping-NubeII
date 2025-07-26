@@ -35,15 +35,82 @@
 
         <!-- Calendario de eventos -->
         <div id="calendar" style="max-width:900px; margin:40px auto 20px;"></div>
+
+        <hr class="my-5" />
+        <h2 class="mb-3">Generar Selectores CSS/XPath con LLM</h2>
+        <div class="mb-3">
+            <label for="htmlInput" class="form-label">Pega aquí el HTML de MercadoLibre</label>
+            <textarea class="form-control" id="htmlInput" rows="10" placeholder="Pega aquí el HTML del sitio..."></textarea>
+        </div>
+        <button class="btn btn-success" onclick="enviarHTMLAlLLM()">Generar Selectores</button>
+
+        <div id="llm-result" class="mt-4 alert d-none"></div>
     </div>
+
+<hr class="my-5" />
+
+<h2 class="mb-3">Generar Selectores CSS/XPath con LLM</h2>
+<div class="mb-3">
+    <label for="htmlInput" class="form-label">Pega aquí el HTML de MercadoLibre</label>
+    <textarea class="form-control" id="htmlInput" rows="10" placeholder="Pega aquí el HTML del sitio..."></textarea>
+</div>
+<button class="btn btn-success" onclick="enviarHTMLAlLLM()">Generar Selectores</button>
+
+<div id="llm-result" class="mt-4 alert d-none"></div>
+
 
     <footer class="text-center mt-5 mb-3">
         <small>&copy; Proyecto Integrador - Computación en la Nube II, UTN 2025</small>
     </footer>
 
+    <!-- Scripts -->
     <script src="results.js"></script>
     <script src="main.js"></script>
-    <script src="calendar.js"></script> <!-- Nueva línea para cargar el calendario -->
+    <script src="calendar.js"></script>
+
+    <!-- Función LLM integrada directamente -->
+    <script>
+        async function enviarHTMLAlLLM() {
+    const html = document.getElementById("htmlInput").value.trim();
+    const resultado = document.getElementById("llm-result");
+
+    if (!html) {
+        resultado.className = "alert alert-warning";
+        resultado.textContent = "Por favor pega algún HTML antes de enviar.";
+        resultado.classList.remove("d-none");
+        return;
+    }
+
+    try {
+        const res = await fetch("http://localhost:5000/api/llm_selector", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ html })
+        });
+
+        const data = await res.json();
+
+        if (data.success) {
+            resultado.className = "alert alert-success";
+            resultado.textContent = "✅ Selectores generados correctamente. Revisa la consola.";
+            console.log("✅ Selectores generados por la IA:", data.selectores);
+        } else {
+            resultado.className = "alert alert-danger";
+            resultado.textContent = data.error || "❌ Error generando selectores.";
+            console.error(data);
+        }
+
+        resultado.classList.remove("d-none");
+    } catch (err) {
+        resultado.className = "alert alert-danger";
+        resultado.textContent = "❌ Error al conectar con la API.";
+        resultado.classList.remove("d-none");
+        console.error(err);
+    }
+}
+    </script>
 </body>
 
 </html>

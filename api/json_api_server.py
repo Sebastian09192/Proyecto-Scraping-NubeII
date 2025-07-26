@@ -3,6 +3,8 @@ import psycopg2
 from dotenv import load_dotenv
 import os
 from flask_cors import CORS
+from llm.llm_selector import llm_selector_bp
+from flask import send_from_directory
 
 # Cargar variables de entorno (.env)
 load_dotenv()
@@ -10,10 +12,20 @@ DB_URL = os.getenv("DATABASE_URL")
 
 app = Flask(__name__)
 CORS(app)
+app.register_blueprint(llm_selector_bp)
 
 def get_db_connection():
     conn = psycopg2.connect(DB_URL)
     return conn
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+DOWNLOADS_FOLDER = os.path.join(BASE_DIR, 'downloads')
+
+@app.route('/downloads/<path:filename>')
+def download_file(filename):
+    from urllib.parse import unquote
+    filename = unquote(filename)
+    return send_from_directory(DOWNLOADS_FOLDER, filename)
 
 @app.route("/api/productos", methods=["GET"])
 def obtener_productos():
