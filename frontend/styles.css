@@ -1,0 +1,19 @@
+body {
+    background: #f8f9fa;
+}
+
+.card {
+    border-radius: 1.1rem;
+    border: 1px solid #eee;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Estilo básico para el calendario */
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+}
